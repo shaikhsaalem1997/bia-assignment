@@ -1,7 +1,6 @@
 __pycache__/
 db.sqlite3
-/static/
-/media/
+static
 venv
 *.log
 *.pot
