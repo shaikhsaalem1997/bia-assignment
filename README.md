@@ -19,6 +19,10 @@ Install project dependencies from requirements.txt.
 
 ### Running the Project
 
+    python manage.py makemigrations
+
+    python manage.py migrate
+
     python manage.py runserver
 
 The server will start at http://localhost:8000/
