@@ -7,7 +7,3 @@ class Movie(models.Model):
 
     def __str__(self):
         return self.title
-
-
-# in postman how to di register User
-# get toekn and refresh toekn?

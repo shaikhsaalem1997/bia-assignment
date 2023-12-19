@@ -9,8 +9,12 @@ router.register(r'movies', MovieViewSet)
 
 
 urlpatterns = [
-    path('hello/', views.hello_django, name='hello'),
+    path('hello/', views.HelloView.as_view(), name='hello'),
     path('process-video/', process_video, name='process_video'),
+
+    path('signup/', views.signup, name='signup'),
+    path('login/', views.login, name='login'),
+
 ]
 
 urlpatterns += router.urls
