@@ -14,8 +14,8 @@ cd bia-assignment
 Create and activate a virtual environment (recommended).
 Install project dependencies from requirements.txt.
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 ### Installation
 
-python manage.py runserver
+    python manage.py runserver
